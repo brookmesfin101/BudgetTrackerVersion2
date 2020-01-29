@@ -1,0 +1,100 @@
+﻿body {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+    max-width: 280px;
+}*/
+
+/* Income and Expense */
+#incomeContainer{
+    height: 355px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#expenseContainer{
+    height: 355px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.addMargin{
+    margin-top: 20px;
+}
+
+.addItem {
+    border: 1px solid white;
+    margin-top: 60px;
+}
+
+h4.card-title{
+    margin: 0px;
+}
+
+.standardButton{
+    border: 2px solid white;
+}
+
+.resetButton{
+    margin-left: 249px;
+}
+
+/* Bottom Half */
+
+#activityContainer {
+    height: 350px;
+    margin-top: 50px;
+}
+
+#activityContainerBegin {
+    margin-top: 50px;
+} 
+#chartCanvas{
+    margin-top: 50px;
+}
+
+.table .IncomeLogItem{
+    border-left: 3px solid #5cb85c;
+    border-bottom: 2px solid #5cb85c;
+}
+
+.table .ExpenseLogItem {
+    border-left: 3px solid #d9534f;
+    border-bottom: 2px solid #d9534f;
+}
+
+/* Validation */
+.invalidIncomeEntry {
+    box-shadow: 2px 2px 3px #d9534f;
+}
+
+.invalidExpenseEntry {
+    box-shadow: 2px 2px 3px #BD58D9;
+}
+
+.invalidIncomeEntryErrorText {
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.invalidExpenseEntryErrorText {
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
